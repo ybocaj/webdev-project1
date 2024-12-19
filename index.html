@@ -1,84 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Boca's Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <title>Boca's Profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
-</head>
-
-<body>
-    <nav>
-        <ul class="nav">
-            <li class="name">Boca</li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="exp.html">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <header>
-        <img src="images/avatar.png" alt="Avatar of Boca" class="profile-image">
-        <h1 class="tag name">Hello, I’m Boca.</h1>
-        <p class="tag location">My home is Canyonville, Oregon.<br>
-            The image is Boca Raton.</p>
-        <p class="tag about">
-            Boca is a nickname, which is part of my last name (jacoby)
-            backwards.
-        </p>
-    </header>
-
-    <main class="flex">
-        <div class="card">
-            <h2>Background</h2>
-
-            <p>I graduated college back in 2004 and I've worked for a few
-                software companies since graduation. I have mostly worked as
-                a Software Specialist, QA Tester, and Analyst, using various
-                tools to troubleshoot and ultimately resolve issues.</p>
-
-            <p>My plan is to learn code so I can be a web developer, software
-                engineer, or even a QA engineer (do some whitebox testing).</p>
-
-            <p>I probably should have began this path 30 years ago, but I
-                hope it's not too late to get hired, because learning code
-                is hard, but fun.</p>
-        </div>
-
-        <div class="card">
-            <h2>Goals</h2>
-            <p>
-                I aim to be really good at programming to where my current
-                struggles are something I can look back and laugh at. I'm
-                looking to increase my knowledge, skills and abilities in:
-            </p>
-            <ul class="skills">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Python</li>
+    <body>
+        <nav>
+            <ul class="nav">
+                <li class="name">Boca</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="exp.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-            <p>
-                My ultimate goal would be to latch on with a company that
-                will allow for growth. I wouldn't mind getting a job working
-                on the front-end, with HTML and CSS, eventually Javascript.
-                As I learn more, I'd like to work on the back-end, with
-                Python and whatever other languages I learn.
+        </nav>
+
+        <header>
+            <img
+                src="images/avatar.png"
+                alt="Avatar of Boca"
+                class="profile-image"
+            />
+            <h1 class="tag name">Hello, I’m Boca.</h1>
+            <p class="tag location">
+                My home is Canyonville, Oregon.<br />
+                The image is Boca Raton.
             </p>
-        </div>
-    </main>
-    <footer>
-        <ul>
-            <li><a target=_blank href="https://x.com/ybocajm" class="social twitter">Twitter</a></li>
-            <li><a target=_blank href="https://www.linkedin.com/in/mike-jacoby-5a1133266"
-                    class="social linkedin">LinkedIn</a></li>
-            <li><a target=_blank href="https://github.com/ybocaj" class="social github">Github</a></li>
-        </ul>
-        <small>&copy; 2024 | Boca | Home</small>
-    </footer>
-</body>
+            <p class="tag about">
+                Boca is a nickname, which is part of my last name (jacoby)
+                backwards.
+            </p>
+        </header>
+
+        <main class="flex">
+            <section class="card">
+                <!-- changed from div to section -->
+                <h2>Background</h2>
+
+                <p>
+                    I graduated college back in 2004 and I've worked for a few
+                    software companies since graduation. I have mostly worked as
+                    a Software Specialist, QA Tester, and Analyst, using various
+                    tools to troubleshoot and ultimately resolve issues.
+                </p>
+
+                <p>
+                    My plan is to learn code so I can be a web developer,
+                    software engineer, or even a QA engineer (do some whitebox
+                    testing).
+                </p>
+
+                <p>
+                    I probably should have began this path 30 years ago, but I
+                    hope it's not too late to get hired, because learning code
+                    is hard, but fun.
+                </p>
+            </section>
+
+            <section class="card">
+                <!-- changed from div to section -->
+                <h2>Goals</h2>
+                <p>
+                    I aim to be really good at programming to where my current
+                    struggles are something I can look back and laugh at. I'm
+                    looking to increase my knowledge, skills and abilities in:
+                </p>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                </ul>
+                <p>
+                    My ultimate goal would be to latch on with a company that
+                    will allow for growth. I wouldn't mind getting a job working
+                    on the front-end, with HTML and CSS, eventually Javascript.
+                    As I learn more, I'd like to work on the back-end, with
+                    Python and whatever other languages I learn.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://x.com/ybocajm"
+                        class="social twitter"
+                        >Twitter</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/mike-jacoby-5a1133266"
+                        class="social linkedin"
+                        >LinkedIn</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://github.com/ybocaj"
+                        class="social github"
+                        >Github</a
+                    >
+                </li>
+            </ul>
+            <small>&copy; 2024 | Boca | Home</small>
+        </footer>
+    </body>
 </html>
